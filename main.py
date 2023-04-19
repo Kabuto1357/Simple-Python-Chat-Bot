@@ -41,6 +41,7 @@ def check_all_messages(message):
     response('I\'m doing fine, and you?', ['how', 'are', 'you', 'doing'], required_words=['how'])
     response('You\'re welcome!', ['thank', 'thanks'], single_response=True)
     response('Thank you!', ['i', 'love', 'code', 'palace'], required_words=['code', 'palace'])
+    response('I was created using Python!',['what','programming','language','were','you','made','with'], required_words=['programming','language'])
 
     # Longer responses
     response(long.R_ADVICE, ['give', 'advice'], required_words=['advice'])
